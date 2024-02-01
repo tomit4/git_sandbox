@@ -9,5 +9,6 @@ app.get('/', (req, res) => {
 const port = process.env.PORT || 3000
 
 app.listen(port, () => {
+    // This is just a simple note to add in development
     console.log(`server started on ${port}`)
 })
